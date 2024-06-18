@@ -1,0 +1,32 @@
+/* variables */
+:root {
+  /* colors */
+  --shadow-slate: #050505;
+  --pearl-frost: #ededed;
+  --green-mantis: #87fb1e;
+
+  /* fonts variables */
+
+}
+
+/* fonts import */
+
+
+/* CSS reset */
+* {
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
