@@ -127,3 +127,52 @@ header {
   }
 }
 
+.footer-box {
+  display: grid;
+  grid-template-columns: 70% 1fr 1fr;
+  background-color: var(--dark-salmon);
+
+
+  .footer-box-item {
+    padding: 0 20px;
+    height: 120px;
+    align-content: center;
+    background-color: var(--silver-medal);
+
+    &:nth-child(1) {
+      border: var(--dark-salmon) solid 1.5px;
+      border-width: 1.5px 1.5px 0 0;
+
+      svg {
+        fill: var(--dark-salmon);
+      }
+    }
+
+    &:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: var(--dark-salmon) solid 1.5px;
+      border-width: 1.5px 1.5px 0 0;
+      text-align: left;
+
+      span {
+        font-size: large;
+        font-family: var(--font-mono);
+        color: var(--dark-salmon);
+      }
+    }
+
+    &:nth-child(3) {
+      border: var(--dark-salmon) solid 1.5px;
+      border-width: 1.5px 0 0 0;
+      text-align: center;
+
+      svg {
+        fill: var(--dark-salmon);
+        height: 50px;
+      }
+    }
+  }
+}
+
