@@ -176,3 +176,24 @@ header {
   }
 }
 
+/* media queries */
+
+/* dispositivos de 640px de anchura o menos */
+@media (width <=640px) {
+
+  .footer-box {
+    grid-template-columns: 70% 1fr;
+
+
+    .footer-box-item {
+
+      &:nth-child(2) {
+        border-width: 1.5px 0 0 0;
+      }
+
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+}
