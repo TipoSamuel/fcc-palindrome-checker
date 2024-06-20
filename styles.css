@@ -86,3 +86,44 @@ header {
 
 }
 
+.palindrome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  min-height: 170px;
+
+  label {
+    text-align: center;
+    font-family: var(--font-mono);
+    color: var(--dark-salmon);
+  }
+
+  #text-input {
+    background-color: var(--silver-medal);
+    padding: 15px 10px;
+    border: var(--dark-salmon) solid 1.5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  #check-btn {
+    width: 100px;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    color: var(--silver-medal);
+    border: none;
+    background-color: var(--dark-salmon);
+    padding: 15px 10px;
+    cursor: pointer;
+  }
+
+  #result {
+    color: var(--dark-salmon);
+    font-family: var(--font-mono);
+    visibility: hidden;
+  }
+}
+
