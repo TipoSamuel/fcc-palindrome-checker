@@ -1,15 +1,25 @@
 /* variables */
 :root {
   /* colors */
-  --shadow-slate: #050505;
-  --pearl-frost: #ededed;
-  --green-mantis: #87fb1e;
+  --silver-medal: #D6D6D5;
+  --dark-salmon: #dc4038;
 
   /* fonts variables */
+  --font-display: 'Agent Alpha', sans-serif;
+  --font-mono: 'Orde Mono', monospace;
 
 }
 
 /* fonts import */
+@font-face {
+  font-family: 'Agent Alpha';
+  src: url('https://pub-8677baedc0b74d588d038030cb561ffd.r2.dev/fonts%2Fagent-alpha.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Orde Mono';
+  src: url('https://pub-8677baedc0b74d588d038030cb561ffd.r2.dev/fonts%2Forde-mono.woff2') format('woff2');
+}
 
 
 /* CSS reset */
