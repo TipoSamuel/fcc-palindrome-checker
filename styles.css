@@ -43,3 +43,13 @@ body {
   background-color: var(--silver-medal);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100dvh - 40px);
+  margin: 20px;
+  border: var(--dark-salmon) solid 1.5px;
+
+}
+
